@@ -1,6 +1,4 @@
 ## loading all the environment variables
-
-
 import streamlit as st
 import os
 import google.generativeai as genai
@@ -19,7 +17,7 @@ def get_gemini_response(question):
 
 st.set_page_config(page_title="VISION PRO CHATBOT")
 
-st.header("CUTIS CARE BOT")
+st.header("VISION PRO CHATBOT")
 
 # Initialize session state for chat history if it doesn't exist
 if 'chat_history' not in st.session_state:
