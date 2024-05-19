@@ -17,7 +17,7 @@ hide_default_format = """
        """
 st.markdown(hide_default_format, unsafe_allow_html=True)
 
-st.header('VISION BOT',divider='pink')
+st.header('VISION BOT',divider='orange')
 
 
 st.markdown(hide_default_format, unsafe_allow_html=True)
