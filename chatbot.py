@@ -25,10 +25,8 @@ st.markdown(hide_default_format, unsafe_allow_html=True)
 st.write("Features of this chatbot")
 st.markdown("- Emergency Reporting")
 st.markdown("- Information Retrieval")
-st.markdown("- Multi-language Support")
 st.markdown("- Integration with Emergency Services")
 st.markdown("- Status Updates")
-st.markdown("- Language Translation")
 st.markdown("- Mental Health and Counseling Support")
 
 st.markdown('''
