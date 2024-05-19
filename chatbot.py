@@ -19,13 +19,7 @@ st.markdown(hide_default_format, unsafe_allow_html=True)
 
 st.header('VISION BOT')
 
-st.set_page_config(layout="wide",page_title="VISION PRO")
-hide_default_format = """
-       <style>
-       #MainMenu {visibility: hidden; }
-       footer {visibility: hidden;}
-       </style>
-       """
+
 st.markdown(hide_default_format, unsafe_allow_html=True)
 
 st.write("Features of this chatbot")
