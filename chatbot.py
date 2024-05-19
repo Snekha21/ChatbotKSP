@@ -16,7 +16,34 @@ hide_default_format = """
        </style>
        """
 st.markdown(hide_default_format, unsafe_allow_html=True)
-st.header('Chatbot')
+
+st.header('VISION BOT')
+
+st.set_page_config(layout="wide",page_title="VISION PRO")
+hide_default_format = """
+       <style>
+       #MainMenu {visibility: hidden; }
+       footer {visibility: hidden;}
+       </style>
+       """
+st.markdown(hide_default_format, unsafe_allow_html=True)
+
+st.write("Features of this chatbot")
+st.markdown("- Emergency Reporting")
+st.markdown("- Information Retrieval")
+st.markdown("- Multi-language Support")
+st.markdown("- Integration with Emergency Services")
+st.markdown("- Status Updates")
+st.markdown("- Language Translation")
+st.markdown("- Mental Health and Counseling Support")
+
+st.markdown('''
+<style>
+[data-testid="stMarkdownContainer"] ul{
+    list-style-position: inside;
+}
+</style>
+''', unsafe_allow_html=True)
 def get_gemini_response(question):
     
     response=chat.send_message(question,stream=True)
