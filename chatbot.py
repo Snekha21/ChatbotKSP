@@ -5,7 +5,6 @@ import streamlit as st
 import os
 import google.generativeai as genai
 import streamlit as st
-import streamlit_tags as tags
 genai.configure(api_key="AIzaSyA3pzFiHktKXSwOhnSsLzEE6dNJb-QptI8")
 
 ## function to load Gemini Pro model and get repsonses
